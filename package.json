@@ -2,7 +2,7 @@
   "name": "marked",
   "description": "A markdown parser built for speed",
   "author": "Christopher Jeffrey",
-  "version": "3.0.8",
+  "version": "3.0.8-lineaje-01",
   "main": "./src/marked.js",
   "module": "./lib/marked.esm.js",
   "browser": "./lib/marked.js",
@@ -17,12 +17,21 @@
     "man/",
     "marked.min.js"
   ],
-  "repository": "git://github.com/markedjs/marked.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/marked"
+  },
   "homepage": "https://marked.js.org",
   "bugs": {
     "url": "http://github.com/markedjs/marked/issues"
   },
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "keywords": [
     "markdown",
     "markup",
